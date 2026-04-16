@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     background-color: #f7f4f4;
     display: flex;
     justify-content: center;
@@ -32,17 +32,30 @@ body {
 }
 
 .card-title {
-    font-size: 32px;
-    font-weight: 600;
-    color: #333;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #26251e;
     margin-bottom: 8px;
 }
 
 .card-price {
     font-size: 20px;
-    color: #666;
+    color: rgba(38, 37, 30, 0.5);
     margin-bottom: 24px;
 }
+
+.card-price-amount {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(38, 37, 30, 0.5);
+}
+
+.card-price-period {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(38, 37, 30, 0.5);
+}                   
 
 .card-content {
     margin-bottom: 32px;
